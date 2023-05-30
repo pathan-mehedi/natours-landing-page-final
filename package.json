@@ -1,0 +1,16 @@
+{
+  "name": "natours-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run compile:sass\""
+  },
+  "author": "Mehedi_Pathan",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1",
+    "nodemon": "^2.0.2"
+  }
+}
